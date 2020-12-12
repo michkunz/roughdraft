@@ -1,0 +1,102 @@
+header{
+  font-family: verdana;
+
+}
+
+nav{
+  color: #57342D;
+  text-decoration: none;
+  display: block;
+  background-color: #3a3a3c;
+
+
+}
+
+nav ul{
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+
+}
+
+
+
+nav a{
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+nav a:hover{
+
+  background: white;
+  color: black;
+  transition: background 1s;
+
+}
+nav a.active{
+  color: black;
+  background-color: white;
+  cursor: default;
+}
+
+main ul{
+  list-style-type: none;
+}
+
+
+}
+
+main{
+  font-family: Trebuchet MS;
+
+}
+
+footer{
+  padding: 10px 10px;
+  color: white;
+  background-color: #3a3a3c;
+}
+
+
+@media screen and (min-width: 850px){
+  nav{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul{
+      width: 850px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+      margin-left: -4px;
+
+  }
+
+  nav li{
+    display: inline-block;
+    margin-right: -4px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  nav a:hover{
+    transition: background 1s;
+  }
+
+  }
+
+@media (prefers-reduced-motion) {
+nav a:hover{
+  transition: background 0.001ms
+}
+
+}
